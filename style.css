@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: linear-gradient(to right, rgb(243, 69, 69), rgb(250, 62, 119), rgb(220, 33, 177), rgb(243, 159, 209));
+    height: 10vh;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+
+}
+
+.heading-text {
+    position: block;
+    margin-left: 40vw;
+    padding-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+
+}
+
+footer {
+    background: linear-gradient(to right, red, rgb(237, 61, 114), rgb(220, 33, 177), rgb(243, 159, 209));
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 80vh;
+}
+
+.slider {
+    background-color: blue;
+    height: 25vh;
+}
+
+.sliderimg {
+    height: 25vh;
+    width: 100vw;
+}
+
+.content {
+    height: 25vh;
+    background: linear-gradient(to right, rgb(249, 92, 139), rgb(242, 159, 223), rgb(243, 159, 209));
+    margin: 7px;
+    border-radius: 6px 0 6px 0;
+    display: flex;
+}
+
+.content-text {
+    font-size: 25px;
+}
+
+.cntimg {
+    height: 26vh;
+    width: 12vw;
+    margin-top: 4px;
+    margin-left: 4px;
+    border-radius: 4px;
+    border: 1px solid whitesmoke;
+
+}
+
+.content-img {
+    margin-left: 10px;
+}
+
+.content {
+    overflow: scroll;
+}
+
+.container2 {
+    height: 75vh;
+
+
+}
+
+.head-about {
+    position: relative;
+    left: 20vw;
+}
+
+.content-about {
+    width: 50vw;
+    height: 65vh;
+    margin-left: 370px;
+    background: linear-gradient(to right, rgb(250, 108, 108), rgb(251, 127, 166), rgb(245, 194, 238));
+    border-radius: 0 15px 0 15px;
+    border: 2px solid rgb(185, 178, 178);
+    margin-top: 32px;
+}
+
+.about-text {
+    padding: 22px;
+}
+
+@media screen and (max-width:400px) {
+    body{
+        background-color:whitesmoke;
+    }
+    .navbar {
+        height: 15vh;
+    }
+    .heading-text {
+        position: relative;
+        top: 17px;
+        right: 84px;
+        font-size: 16px;
+    }
+
+    ul li a {
+        position: relative;
+        top: 41px;
+        font-size: 14px;
+    }
+
+    .cntimg {
+        width: 35vw;
+        height: 21vh;
+        margin-top: 8px;
+    }
+
+    .content-about {
+        margin-left: 67px;
+        width: 258px;
+    }
+
+    .head-about {
+        left: 13vw;
+    }
+
+    .content {
+        height: 25vh;
+        margin-top: 11px;
+    }
+
+    .content-text {
+        margin: 7px;
+        font-size: 20px;
+        color:whitesmoke;
+    }
+
+    .about {
+        margin-left: -2px;
+        font-size: 26px;
+        margin-top: 18px;
+    }
+    
+}
+
+
